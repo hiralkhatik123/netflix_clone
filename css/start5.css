@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navstart{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.start_name{
+    color: red;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.line_start{
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+    top: -4vh;
+}
+.Sign_in_start{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    top: 5vh;
+    right: 5vh;
+    font-weight: bold;
+}
+.Sign_in_start:hover{
+    text-decoration: underline;
+    
+}
+.main_start5{
+    height: 174vh;
+    width: 100%;
+    
+    overflow: hidden;
+    border-radius: 4px;
+}
+.free2{
+    position: relative;
+    left: 7vh;
+    color: black;
+}
+.main_start5 i{
+    position: relative;
+    top: 4vh;
+}
+.start5{
+    overflow: hidden;
+}
+.packages{
+    height: 32vh;
+    overflow: hidden;
+}
+.main3_start5{
+    height: 181vh;
+    padding: 3vh 0vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.package1{
+    height: 32vh;
+    position: relative;
+    left: 73vh;
+    display: flex;
+}
+.table_main{
+    width: 81vh;
+    position: relative;
+    left: 11vh;
+    width: 132vh;
+    font-size: 16px;
+    color: gray;
+}
+.easy{
+    position: relative;
+    top: 25vh;
+
+}
+
+.main_start5 i{
+    position: inherit;
+}
+.phone{
+    position: relative;
+    top: 10vh;
+}
+.HD{
+    position: relative;
+    top: 22vh;
+
+}
+.tv{
+    position: relative;
+    top: 19vh;
+
+}
+.vidio{
+    top: 4vh;
+    position: relative;
+}
+.restrore{
+    position: relative;
+    top: 7vh;
+}
+.computer{
+    position: relative;
+    top: 16vh;
+}
+.tablet{
+    position: relative;
+    top: 14vh;
+    
+}
+.button_start_2{
+    position: relative;
+    top: 26vh;
+    justify-content: center;
+    left: 10%;
+    width: 50vh;
+    padding: 16px 0;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    outline: none;
+}
+.netflix7{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    top: -77vh;
+}
+.main_7{
+    position: relative;
+    height: 600px;
+    width: auto;
+    padding: 50px 15% 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.col a{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.name_content{
+    display: flex;
+}
+.Net_English{
+    height: 5vh;
+    width: 23vh;
+    border-radius: 1vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    display: block;
+    position: relative;
+    left: 21vh;
+    top: 7vh;
+}
+.main2_start5{
+    position: relative;
+    left: 6vh;
+}
+.mobile{
+    height: 15vh;
+    width: 15vh;
+    display: block;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 5vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+.Basic{
+    height: 15vh;
+    width: 15vh;
+    display: block;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 5vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+.Standard{
+    height: 15vh;
+    width: 15vh;
+    display: block;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 5vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+.Premium{
+    height: 15vh;
+    width: 15vh;
+    display: block;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 5vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+@media (max-width:1524px){
+    .main2_start5{
+        position: relative;
+        left: 6vh;
+    }
+    .package1{
+        left: 56vh;
+        position: relative;
+    }
+    .table_main{
+        position: relative;
+        left: 14vh;
+        width: 95vh;
+        top: -17vh;
+        height: 25vh;
+    }
+    .price{
+        position: relative;
+        left: 31vh;
+        top: -4vh;
+    }
+    .quality{
+        position: relative;
+        left: 30vh;
+        top: -3vh;
+    }
+    .restore{
+        position: relative;
+        top: -2vh;
+        left: 30vh;
+    }
+    .vidio{
+        position: relative;
+        top: 5vh;
+    }
+
+}
+@media (max-width:1326px){
+.main3_start5{
+    left: -26vh;
+    position: relative;
+}
+#mobile{
+    height: 9vh;
+    width: 9vh;
+}
+.Basic{
+    height: 9vh;
+    width: 9vh;
+}
+.Standard{
+    height: 9vh;
+    width: 9vh;
+}
+.Premium{
+    height: 9vh;
+    width: 9vh;
+}
+}
+@media (max-width:982px){
+    h1{
+        font-size: 2vh;
+    }
+    .free2{
+        font-size: 2vh;
+        left: 2vh;
+    }
+    .main2_start5{
+        width: 59vh;
+    }
+    .main2_start5 i{
+        top: 2vh;
+        position: inherit;
+    }
+    .main3_start5 {
+        left: -53vh;
+        position: relative;
+    }
+}
+@media (max-width:353px){
+    .start_name{
+        font-size: 3vh;
+    }
+    .Sign_in_start{
+        top: 2vh;
+        font-size: 2vh
+    }
+}
+.start5{
+    height: 185vh;
+}
+.main3_start5{
+    width: 500%;
+}
+@media (max-width:412px){
+    .button_start_2{
+        left: 22%;
+    }
+}
+@media (max-width:428px){
+    .HD{
+        width: 45vh;
+        left: 54vh;
+    }
+    .easy{
+        width: 45vh;
+        left: 54vh;
+    }
+    .netflix7 {
+        position: relative;
+        top: -70vh;
+    }
+    .button_start_2{
+        left: 22%;
+        position: relative;
+    }
+    .Net_English{
+        left: -3vh;
+        position: relative;
+    }
+}

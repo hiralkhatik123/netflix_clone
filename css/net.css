@@ -1,0 +1,573 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.net_main{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),url(/imagesss/net.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    height: 16vh;
+}
+.name_net{
+    color: red;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.net_option2{
+    height: 5vh;
+    width: 23vh;
+    border-radius: 1vh;
+    position: absolute;
+    right: 48vh;
+    top: 4vh;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+}
+.button2{
+    right: 28vh;
+    height: 5vh;
+    width: 17vh;
+    border-radius: 1vh;
+    position: absolute;
+    top: 4vh;
+    background-color: red;
+    color: white;
+    font-size: 2vh;
+}
+.main{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+.oracle{
+    display: flex;
+}
+.line{
+    background-color: rgb(58, 54, 54);
+    height: 2vh;
+}
+.main{
+    width: 100%;
+    height: 81vh;
+}
+.text_net{
+    height: 59vh;
+    position: absolute;
+    width: 61%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    overflow: hidden;
+    display: block;
+}
+.input{
+    
+    width: 48vh;
+    height: 7vh;
+    border-radius: 4px;
+    padding-right: 3vh;
+    
+    }
+.button_net{
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    width: 31vh;
+    height: 7vh;
+    border-radius: 4px;
+    
+}
+.button_net1{
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    width: 31vh;
+    height: 7vh;
+    border-radius: 4px;
+}
+.text_big{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    
+}
+.text_small{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding-top: 14px;
+}
+.text_2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    padding-top: 14px;
+    display: block;
+}
+.oracle{
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+.netflix2{
+    background-color: black;
+    height: 694px;
+    width: 100%;
+    position: relative;
+}
+.net_main2{
+    position: relative;
+    height: 570px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tv_big{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.tv_small{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.text_tv{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 101vh;
+    overflow: hidden;
+    display: block;
+}
+.net_img{
+    display: block;
+    overflow: hidden;
+}
+.netflix3{
+    background-color: black;
+    height: 632px;
+    width: 100%;
+    display: block;
+}
+.net_main3{
+    position: relative;
+    height: 632px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.txt_ph{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 101vh;
+    overflow: hidden;
+    display: block;
+}
+.big_ph{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.small_ph{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ph_img{
+    display: block;
+    overflow: hidden;
+}
+.netflix4{
+    background-color: black;
+    height: 570px;
+    width: 100%;
+    display: block;
+}
+.net_main4{
+    position: relative;
+    height: 570px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ser_txt{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 101vh;
+    overflow: hidden;
+}
+.ser_big{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.ser_small{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ser_img{
+    display: block;
+    overflow: hidden;
+}
+.net_main5{
+    position: relative;
+    height: 694px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.car_text{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 101vh;
+    overflow: hidden;
+    display: block;
+}
+.car_big{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.car_small{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.netflix5{
+    background-color: black;
+    height: 694px;
+    width: auto;
+    overflow: hidden;
+    display: block;
+}
+.car_img{
+    display: block;
+    overflow: hidden;
+}
+.netflix6{
+    height: 900px;
+    width: auto;
+    background-color: black;
+    overflow: hidden;
+    display: block;
+}
+.net_main6{
+    height: 900px;
+    width: auto;
+    position: relative;
+    padding: 93px 20%;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 800px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    background: #303030;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px ;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.small_contain{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.Email form{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 28vh;
+}
+.netflix7{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+.main_7{
+    position: relative;
+    height: 600px;
+    width: auto;
+    padding: 50px 15% 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.col a{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.name_content{
+    display: flex;
+}
+.Net_English{
+    height: 5vh;
+    width: 23vh;
+    border-radius: 1vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    display: block;
+    position: relative;
+    left: 21vh;
+    top: 7vh;
+}
+.main_netflix_7{
+    font-size: 2vh;
+    display: block;
+    position: relative;
+    top: 9vh;
+}
+.net_img{
+    position: relative;
+}
+@media screen and (max-width:1399px) {
+    .net_main2{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .net_main3{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .net_main4{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .net_main5{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 948px) {
+    .container{
+        overflow: hidden;
+    }
+    .oracle{
+        flex-direction: column;
+    }
+    .net_main6{
+        width: 450px;
+    }
+}
+
+
+@media (max-width:870px){
+    .button2{
+        right: 2vh;
+        position: absolute;
+
+    }
+    .net_option2{
+        width: 14vh;
+        position: absolute;
+        right: 20vh;
+    }
+    .input{
+        height: 4vh;
+        width: 23vh;
+    }
+    .oracle{
+        display: block ruby;
+        left: 1vh;
+    }
+    .button_net{
+        width: 15vh;
+        height: 4vh;
+        position: relative;
+        top: 0.5vh;
+        
+    }
+    .car_small{
+        width: 74vh;
+        position: relative;
+        left: 13vh;
+    }
+    .small_ph{
+        width: 74vh;
+        position: relative;
+        left: 13vh;
+    }
+    .tv_small{
+        width: 74vh;
+        position: relative;
+        left: 13vh;
+    }
+    .big_ph{
+        width: 72vh;
+        position: relative;
+        left: 12vh;
+    }
+    .ser_small{
+        width: 74vh;
+        position: relative;
+        left: 13vh;
+    }
+    .text_net {
+        width: 100%;
+    }
+    .button_net1{
+        width: 15vh;
+        height: 4vh;
+        position: relative;
+        top: 0.5vh;
+        
+    }
+    .net_main6{
+        position: relative;
+        left: -8vh;
+    }
+}
+@media (max-width:870px){
+    .net_option2{
+        top: 7vh;
+        left: 4vh;
+    }
+    .button2{
+        top: 7vh;
+        left: 20vh;
+    }
+    .tv_small{
+        width: 52vh;
+        position: relative;
+        left: 24vh;
+    }
+    .small_ph {
+        width: 35vh;
+        position: relative;
+        left: 21vh;
+    }
+    .big_ph {
+        width: 49vh;
+        position: relative;
+        left: 12vh;
+    }
+}
+@media (max-width:378px){
+    .net_main6 {
+        width: 305px;
+    }
+    .oracle{
+        position: relative;
+        top: 1vh;
+    }
+    .txt_ph{
+        left: 13vh;
+    }
+    .Net_English{
+        left: 4vh;
+    }
+}
+#error{
+    color: red;
+    position: relative;
+    top: 9vh;
+    left: -52vh;
+}
+@media (max-width:378px){
+    .net_main6 {
+        width: 41vh;
+    }
+    .oracle{
+        position: relative;
+        top: 2vh;
+    }
+    .Net_English {
+        position: relative;
+        left: -3vh;
+    }
+}
+
+

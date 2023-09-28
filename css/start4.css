@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navstart{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.start_name{
+    color: red;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.line_start{
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+}
+.Sign_in_start{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    top: 5vh;
+    right: 5vh;
+    font-weight: bold;
+}
+.Sign_in_start:hover{
+    text-decoration: underline;
+    
+}
+.main_sign_4{
+        height: 440px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        align-items: center;
+        transform: translate(-50%,-50%);
+        border-radius: 4px;
+        width: 500px;
+        padding: 74px;
+        
+}
+.chack_img{
+    width: 20vh;
+    position: relative;
+    right: -15vh;
+}
+.button_start_2{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    outline: none;
+}
+h4{
+    padding-bottom: 2vh;
+    text-align: center;
+}
+.cancel{
+    padding-bottom: 2vh;
+    position: relative;
+    left: 6vh;
+    color: black;
+}
+h1{
+    padding-bottom: 2vh;
+    text-align: center;
+}
+.point4 i{
+    position: relative;
+    top: 5vh;
+}
+.netflix7{
+    height: 341px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    top: 121vh;
+}
+.main_7{
+    position: relative;
+    height: 600px;
+    width: auto;
+    padding: 50px 15% 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.col a{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.name_content{
+    display: flex;
+}
+.Net_English{
+    height: 5vh;
+    width: 23vh;
+    border-radius: 1vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    display: block;
+    position: relative;
+    left: 21vh;
+    top: 7vh;
+}
+.start4{
+    overflow: hidden;
+}

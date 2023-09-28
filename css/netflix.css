@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)),url(/imagesss/net.jpg);
+    
+}
+body::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-position: center;
+}
+.form_wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    width: 430px;
+    padding: 60px;
+}
+.form_control input{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    border: none;
+    padding: 0 20px;
+    font-size: 1rem;
+    padding: 0 20px;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+}
+form .form_control{
+    height: 50px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.form_wrapper h2{
+    color: white;
+    font-size: 2rem;
+}
+.form_control label{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    color: #8c8c8c;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.1s ease;
+}
+.form_control input:is(:focus, :valid) ~ label{
+    font-size: 1rem;
+    transform: translateY(-130%);
+}
+.form_control input:is(:focus, :valid){
+    padding: 16px 20px 0;
+    background-color: #444;
+}
+form button{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    outline: none;
+}
+form button:hover{
+    background-color: red;
+}
+form .form_help{
+    display: flex;
+    justify-content: space-between;
+}
+form .remember_me input{
+    margin-right: 5px;
+    accent-color: #b3b3b3;
+}
+form .remember_me{
+    display: flex;
+}
+form .remember_me input{
+    margin-right: 5px;
+    accent-color: #b3b3b3;
+}
+form .form_help :where(label,a){
+    font-size: 0.9rem;
+}
+.form_wrapper :where(label,p,small,a){
+    color: #b3b3b3;
+}
+.form_wrapper p a{
+    color: white;
+}
+
+.form_wrapper small{
+    display: block;
+    margin-top: 15px;
+}
+.form_wrapper small a{
+    color: blue;
+}
+.form_wrapper a{
+    text-decoration: none;
+}
+.form_wrapper small a:hover{
+    text-decoration: underline;
+}
+@media (max-width:740px){
+    body::before{
+        display: none;
+    }
+    .sign_name .form_wrapper{
+        padding: 20px;
+    }
+    .form_wrapper{
+        top: 43%;
+        width: 100%;
+    }
+    .form_wrapper form{
+        margin: 25px 0 40px;
+        
+    }
+}
+.sign_name{
+    color: red;
+    font-size: 3rem;
+}
+.error_sign{
+    background-color: orange;
+    height: 12vh;
+    position: relative;
+    margin-bottom: 3vh;
+    width: 100%;
+    border-radius: 4px;
+    visibility: hidden;
+}
+.error_sign p{
+    color: white;
+}
+.error_sign a{
+    text-decoration: revert;
+    text-decoration: underline;
+}
+.netflix7{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    top: 110vh;
+}
+.main_7{
+    position: relative;
+    height: 600px;
+    width: auto;
+    padding: 50px 15% 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.col a{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.name_content{
+    display: flex;
+}
+.Net_English{
+    height: 5vh;
+    width: 23vh;
+    border-radius: 1vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    display: block;
+    position: relative;
+    left: 21vh;
+    top: 7vh;
+}
+.netflix7{
+    position: absolute;
+    top: 161vh;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}

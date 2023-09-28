@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navstart{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.start_name{
+    color: red;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.line_start{
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+}
+.Sign_in_start{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    top: 5vh;
+    right: 5vh;
+    font-weight: bold;
+}
+.Sign_in_start:hover{
+    text-decoration: underline;
+    
+}
+.button_start_2{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    outline: none;
+}
+.main_sign_3{
+    height: 440px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    width: 500px;
+    padding: 74px;
+}
+#email_3{
+    width: 100%;
+    height: 8vh;
+    border-radius: 4px;
+    margin-bottom: 1vh;
+}
+#pass_3{
+    width: 100%;
+    height: 8vh;
+    border-radius: 4px;
+}
+#error{
+    color: red;
+    position: relative;
+    top: -1vh;
+    left: -24;
+}
+#error2{
+    color: red;
+    position: relative;
+    top: 4vh;
+    left: -15vh;
+}
+h2{
+    font-size: 32px;
+    padding-bottom: 2vh;
+}
+h4{
+    padding-bottom: 2vh;
+}
+h3{
+    padding-bottom: 2vh;
+}
+.forgot{
+    color: blue;
+    cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+#error2{
+    color: red;
+    position: relative;
+    left: 0vh;
+    top: 0vh;
+}
